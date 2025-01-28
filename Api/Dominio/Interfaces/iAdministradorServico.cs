@@ -16,5 +16,9 @@ namespace minimal_api.Infraestutura.Interfaces
         Administrador? BuscaPorId(int id);
         List<Administrador> Todos(int? pagina);
 
+        Administrador? Editar(Administrador administrador);
+
+        bool Excluir(int id);
+
     }
 }
